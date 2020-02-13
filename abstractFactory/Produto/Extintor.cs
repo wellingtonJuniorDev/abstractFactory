@@ -5,6 +5,6 @@
     /// </summary>
     public abstract class Extintor
     {
-        public abstract void Indicacao();
+        public abstract void IndicarUso();
     }
 }

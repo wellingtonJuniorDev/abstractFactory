@@ -18,13 +18,13 @@ namespace abstractFactory
                 var lojaDeExtintor = App.GetInstance<ILojaDeExtintor>();
 
                 Extintor agua = lojaDeExtintor.ObterExtintor(TipoExtintor.Agua);
-                agua.Indicacao();
+                agua.IndicarUso();
 
                 Extintor gasCarbonico = lojaDeExtintor.ObterExtintor(TipoExtintor.GasCarbonico);
-                gasCarbonico.Indicacao();
+                gasCarbonico.IndicarUso();
 
                 Extintor poQuimico = lojaDeExtintor.ObterExtintor(TipoExtintor.PoQuimico);
-                poQuimico.Indicacao();
+                poQuimico.IndicarUso();
 
                 Console.ReadKey();
             }
