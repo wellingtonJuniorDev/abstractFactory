@@ -1,14 +1,14 @@
 ## Abstract Factory
 
-Um dos design patterns mais comuns e utilizados, fornece uma interface para criar famílias de objetos relacionados sem especificar suas classes concretas.
+One of the most common and used design patterns, it allows an interface to create families of related objects without specifying their concrete classes.
 
-![Diagrama de classe UML](https://www.dofactory.com/images/diagrams/net/abstract.gif "Diagrama de classe UML")
-
-
-
-- Um cliente (quem irá consumir o recurso) necessita conhecer somente a abstração da fábrica de criação de objetos, não sua implementação.
-
-- Desta forma se obtém o isolamento de classes concretas, e se for necessário trocar algum produto (classe concreta) ou toda a família de classes, causará um impacto menor nas demais partes do sistema, que deverá na melhor prática, depender das abstrações, e não implementações.
+![UML Class Diagram](https://www.dofactory.com/images/diagrams/net/abstract.gif "UML Class Diagram")
 
 
-Referência: [dofactory](https://www.dofactory.com/net/abstract-factory-design-pattern "dofactory")
+
+- A customer (who will consume the resource) needs to know only the abstraction of the object creation factory, not its implementation.
+
+- In this way the isolation of concrete classes is obtained, and if it is necessary to change any product (concrete class) or the whole family of classes, it will have a lesser impact on the other parts of the system, which should, in best practice, depend on abstractions, and not implementations.
+
+
+Reference: [dofactory](https://www.dofactory.com/net/abstract-factory-design-pattern "dofactory")
